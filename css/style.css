@@ -37,3 +37,15 @@
     height: 400px;
 }
 
+/* MAIN */
+main{
+    width: 70%;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 7em;
+}
+
+/* sect-1 */
+.text{
+    height: 60px;
+}
