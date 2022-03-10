@@ -12,23 +12,49 @@
     clear: both;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none; 
+}
+
 /* HEADER */
 
 /* NAV */
-.nav{
-    height: 100px;
-    width: 96%;
+.col-nav{
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    max-width: 1200px;
 }
 
-.col-nav{
-    width: 48%;
-    margin: 0 auto;
-    float: right;
-    max-width: 1200px;
-    /* test */
-    height: 100px;
-    background-color: yellowgreen;
-    border: 2px solid black;
+.nav-list,
+.nav-list > li{
+    display: inline-block;
+    padding: 1em;
+    vertical-align: middle;
+}
+
+.nav-list a{
+    color: black;
+}
+
+.col-nav img{
+    vertical-align: middle;
+    padding-left: 1em;
+}
+
+.col-nav2{
+    text-align: right;
+}
+
+.btn-nav{
+    background-color: #3e3eff;
+    padding: .5em;
+    color: white;
+    margin-right: 1em;
 }
 
 /* BANNER */
