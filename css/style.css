@@ -50,17 +50,21 @@ a{
     text-align: right;
 }
 
-.btn-nav{
+.btn{
     background-color: #3e3eff;
     padding: .5em;
     color: white;
+}
+
+.btn-nav{
     margin-right: 1em;
 }
+
 
 /* BANNER */
 .banner{
     background-color: lightblue;
-    height: 400px;
+    height: 600px;
 }
 
 .banner-cont{
@@ -76,10 +80,11 @@ a{
 
 .ban-col1{
     width: 30%;
-    height: 30px;
     background-color: yellow;
     float: left;
 }
+
+
 
 .ban-col2{
     width: 70%;
@@ -87,6 +92,8 @@ a{
     background-color: yellowgreen;
     float: left;
 }
+
+
 
 /* MAIN */
 .main-1{
