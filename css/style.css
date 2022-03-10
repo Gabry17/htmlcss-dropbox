@@ -13,6 +13,8 @@
 }
 
 /* HEADER */
+
+/* NAV */
 .nav{
     height: 100px;
 }
@@ -25,3 +27,10 @@
     background-color: yellowgreen;
     border: 2px solid black;
 }
+
+/* BANNER */
+.banner{
+    background-color: lightblue;
+    height: 400px;
+}
+
