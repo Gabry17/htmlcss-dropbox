@@ -16,7 +16,7 @@ ul{
     list-style: none;
 }
 
-a{
+.nav-list li a{
     text-decoration: none; 
 }
 
@@ -52,8 +52,9 @@ a{
 
 .btn{
     background-color: #3e3eff;
-    padding: .5em;
+    padding: .5em 1.5em;
     color: white;
+    border: none;
 }
 
 .btn-nav{
@@ -64,33 +65,32 @@ a{
 /* BANNER */
 .banner{
     background-color: lightblue;
-    height: 600px;
+    height: 700px;
 }
 
 .banner-cont{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
-}
+}    
 
 .title{
-    margin: 2em 0;
+    padding: 2em 0;
     font-size: 2em;
 }
 
 .ban-col1{
     width: 30%;
-    background-color: yellow;
     float: left;
+    padding-right: 3em;
 }
-
-
 
 .ban-col2{
     width: 70%;
-    height: 30px;
-    background-color: yellowgreen;
     float: left;
+}
+
+.ban-col2 img{
+    width: 100%;
 }
 
 
@@ -98,15 +98,18 @@ a{
 /* MAIN */
 .main-1{
     width: 60%;
-    border: 2px solid black;
     margin: 0 auto;
-    margin-top: 7em;
+    margin-top: 12em;
 }
 
 /* text */
-.text{
-    height: 60px;
-    background-color: red;
+.text > h2{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.span > span{
+    margin-right: 1em;
 }
 
 /* packet */
@@ -114,12 +117,61 @@ a{
     margin-top: 1em;
 }
 
+.packet-title{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: .5em 0;
+}
+
 .col-main{
-    height: 300px;
     width: calc(100% / 3);
     float: left;
-    background-color: red;
-    border: 2px solid black;
+    border: 1px solid lightgray;
+}
+
+.col-main1{
+    width: 90%;
+    margin: 1em auto;
+}
+
+.col-main1 h2,
+.part2 div,
+.spazio,
+.part3,
+hr,
+.part4 ul li,
+.part4 h3{
+    margin-bottom: 1em;
+}
+
+.prezzi{
+    margin-bottom: .8em;
+}
+
+.part1{
+    margin-bottom: 3em;
+}
+
+.btn-packet{
+    border: none;
+    margin: 3em 0 2em;
+    width: 100%;
+}
+
+.part3 p a{
+    color: blue;
+}
+
+hr{
+    width: 15%;
+}
+
+.ul-part4 li span{
+    color: blue;
+}
+
+.ul-part4{
+    margin-bottom: 10em;
 }
 
 .col-center{
