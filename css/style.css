@@ -39,7 +39,7 @@
 
 /* MAIN */
 main{
-    width: 70%;
+    width: 60%;
     border: 2px solid black;
     margin: 0 auto;
     margin-top: 7em;
@@ -48,4 +48,23 @@ main{
 /* sect-1 */
 .text{
     height: 60px;
+    background-color: red;
+}
+
+/* sect-2 */
+.packet{
+    margin-top: 1em;
+}
+
+.col-main{
+    height: 300px;
+    width: calc(100% / 3);
+    float: left;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.col-center{
+    margin: 0 20px;
+    width: calc(33% - 40px);
 }
