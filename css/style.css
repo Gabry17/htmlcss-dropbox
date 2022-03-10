@@ -17,11 +17,14 @@
 /* NAV */
 .nav{
     height: 100px;
+    width: 96%;
 }
 
 .col-nav{
-    width: 50%;
+    width: 48%;
+    margin: 0 auto;
     float: right;
+    max-width: 1200px;
     /* test */
     height: 100px;
     background-color: yellowgreen;
