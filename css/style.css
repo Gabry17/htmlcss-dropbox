@@ -130,3 +130,29 @@
     background-color: lightblue;
 }
 
+/* domande */
+.domande{
+    height: 600px;
+    background-color: bisque;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: black;
+    height: 500px;
+}
+
+.cont-foot{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-foot{
+    height: 300px;
+    border: 2px solid white;
+    float: left;
+    width: calc(100% / 5);
+    margin-top: 3em;
+}
+
