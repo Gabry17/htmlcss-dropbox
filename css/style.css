@@ -1,6 +1,27 @@
 /* RESET */
 *{
-    margin 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* COMMON */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+.nav{
+    height: 100px;
+}
+
+.col-nav{
+    width: 50%;
+    float: right;
+    /* test */
+    height: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
 }
