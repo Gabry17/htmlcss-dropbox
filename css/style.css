@@ -199,8 +199,9 @@ hr,
     color: blue;
 }
 
-hr{
+.hr{
     width: 15%;
+    color: gray;
 }
 
 .ul-part4 li span{
@@ -417,12 +418,24 @@ hr{
 
 /* domande */
 
+.text-domande{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.domande h2{
+    margin: 2em 0;
+    width: 95%;
+}
+
+.dom-t span{
+    float: right;
+}
 
 /* FOOTER */
 
 .footer{
     background-color: black;
-    height: 500px;
 }
 
 .cont-foot{
@@ -431,10 +444,33 @@ hr{
 }
 
 .col-foot{
-    height: 300px;
-    border: 2px solid white;
     float: left;
     width: calc(100% / 5);
-    margin-top: 3em;
+    margin-top: 10em;
+}
+
+.col-foot h4{
+    margin-bottom: 1em;
+    color: white;
+}
+
+.col-foot li a{
+    margin-bottom: .5em;
+    color: white;
+    font-size: .7em;
+    text-decoration: none;
+}
+
+.col-foot ul{
+    margin-bottom: 4em;
+}
+
+.col-foot hr{
+    width: 30%;
+}
+
+.col-foot p,
+.col-foot span{
+    color: gray;
 }
 
