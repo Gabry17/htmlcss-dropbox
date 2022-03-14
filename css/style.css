@@ -22,10 +22,10 @@ ul{
 
 .nav-list li a{
     text-decoration: none; 
-    padding: 2em 0;
+    padding: 1.8em 0;
 }
 
-.nav-list li a:hover{
+.border-hover:hover{
     border-bottom: 3px solid black;
 }
 
@@ -75,6 +75,7 @@ hr,
     background-color: white;
     z-index: 1;
 }
+
 .col-nav{
     width: 50%;
     max-width: 1200px;
@@ -110,6 +111,32 @@ hr,
     margin-right: 1em;
 }
 
+.nav-list{
+    position: relative;
+}
+
+.menu-hover{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid lightgray;
+    text-align: left;
+    padding: 1em 0;
+    display: none;
+}
+
+.cont-menu:hover{
+    background-color: #eeeded;
+}
+
+.cont-menu{
+    padding: 1em 2em;
+}
+
+.menu-hover{
+    display: block;
+}
 
 /* BANNER */
 .banner{
