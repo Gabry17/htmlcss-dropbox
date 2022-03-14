@@ -425,15 +425,28 @@ label{
     font-size: 1.8em;
 }
 
-.domande h3{
-    margin: 2em 0;
+.dom-t,
+.text-hover{
     width: 95%;
 }
 
 .text-hover{
-    margin-bottom: 3em;
-    display: none; 
-    
+    margin-top: 1em;
+    color: gray;
+}
+
+.ds-none,
+.domande:hover .down{
+    display: none;
+}
+
+.domande:hover .up,
+.domande:hover .text-hover{
+    display: block;
+}
+
+.domande{
+    padding: 2em 0;
 }
 
 .dom-t span{
