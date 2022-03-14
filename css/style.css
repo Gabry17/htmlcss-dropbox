@@ -63,6 +63,10 @@ hr,
     margin: 0 auto;
 }
 
+.btn:hover{
+    opacity: 0.8;
+}
+
 /* HEADER */
 /* NAV */
 .nav{
@@ -167,7 +171,7 @@ main{
     font-size: 3em;
 }
 
-.span > span{
+label{ 
     margin-right: 1em;
 }
 
@@ -426,6 +430,12 @@ main{
     width: 95%;
 }
 
+.text-hover{
+    margin-bottom: 3em;
+    display: none; 
+    
+}
+
 .dom-t span{
     float: right;
 }
@@ -450,6 +460,10 @@ main{
     margin-bottom: .5em;
     font-size: .7em;
     text-decoration: none;
+}
+
+.col-foot li a:hover{
+    text-decoration: underline;
 }
 
 .col-foot ul{
